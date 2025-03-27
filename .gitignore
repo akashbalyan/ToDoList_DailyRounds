@@ -1,0 +1,38 @@
+# Node.js dependencies for all directories
+**/node_modules/
+
+# Log files
+npm-debug.log
+yarn-error.log
+*.log
+
+# Lock files (optional, some teams prefer versioning these)
+package-lock.json
+yarn.lock
+
+# Environment variables in any folder
+**/.env
+
+# Build output and distribution folders
+/dist
+/build
+
+# Frontend build artifacts
+/frontend/build
+/frontend/.cache
+/frontend/coverage
+
+# IDE and editor files
+*.swp
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
